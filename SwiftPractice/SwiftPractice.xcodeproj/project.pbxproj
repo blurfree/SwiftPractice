@@ -20,6 +20,14 @@
 		47157A822C9939CF0080DC29 /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157A812C9939CF0080DC29 /* FourthView.swift */; };
 		47157A842C9939D70080DC29 /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157A832C9939D70080DC29 /* FifthView.swift */; };
 		47157A862C9939DF0080DC29 /* SixthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157A852C9939DF0080DC29 /* SixthView.swift */; };
+		47157A892C993CAA0080DC29 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157A882C993CAA0080DC29 /* Module.swift */; };
+		47157A8F2C993FD00080DC29 /* CompletionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157A8E2C993FD00080DC29 /* CompletionBasic.swift */; };
+		47157A912C995E590080DC29 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157A902C995E590080DC29 /* Container.swift */; };
+		47157A932C9983E60080DC29 /* MyUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157A922C9983E60080DC29 /* MyUseCase.swift */; };
+		47157A952C9983F00080DC29 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157A942C9983F00080DC29 /* MyViewModel.swift */; };
+		47157A972C99A3A60080DC29 /* DIContainerInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157A962C99A3A60080DC29 /* DIContainerInstance.swift */; };
+		47157A992C99A3BF0080DC29 /* DIContainerClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157A982C99A3BF0080DC29 /* DIContainerClosure.swift */; };
+		47157A9C2C99D79A0080DC29 /* PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47157A9B2C99D79A0080DC29 /* PropertyWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,14 @@
 		47157A812C9939CF0080DC29 /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
 		47157A832C9939D70080DC29 /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
 		47157A852C9939DF0080DC29 /* SixthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthView.swift; sourceTree = "<group>"; };
+		47157A882C993CAA0080DC29 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		47157A8E2C993FD00080DC29 /* CompletionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionBasic.swift; sourceTree = "<group>"; };
+		47157A902C995E590080DC29 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		47157A922C9983E60080DC29 /* MyUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUseCase.swift; sourceTree = "<group>"; };
+		47157A942C9983F00080DC29 /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
+		47157A962C99A3A60080DC29 /* DIContainerInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainerInstance.swift; sourceTree = "<group>"; };
+		47157A982C99A3BF0080DC29 /* DIContainerClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainerClosure.swift; sourceTree = "<group>"; };
+		47157A9B2C99D79A0080DC29 /* PropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +85,9 @@
 		47157A622C9938B90080DC29 /* SwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				47157A9A2C99C59B0080DC29 /* ProperyWrapper */,
+				47157A8D2C993FB90080DC29 /* Completion */,
+				47157A872C993BA50080DC29 /* DI */,
 				47157A712C9939330080DC29 /* NavigationStack */,
 				47157A632C9938B90080DC29 /* SwiftPracticeApp.swift */,
 				47157A652C9938B90080DC29 /* ContentView.swift */,
@@ -116,6 +135,35 @@
 				47157A852C9939DF0080DC29 /* SixthView.swift */,
 			);
 			path = NavigationStackAndLink;
+			sourceTree = "<group>";
+		};
+		47157A872C993BA50080DC29 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				47157A882C993CAA0080DC29 /* Module.swift */,
+				47157A902C995E590080DC29 /* Container.swift */,
+				47157A922C9983E60080DC29 /* MyUseCase.swift */,
+				47157A942C9983F00080DC29 /* MyViewModel.swift */,
+				47157A962C99A3A60080DC29 /* DIContainerInstance.swift */,
+				47157A982C99A3BF0080DC29 /* DIContainerClosure.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		47157A8D2C993FB90080DC29 /* Completion */ = {
+			isa = PBXGroup;
+			children = (
+				47157A8E2C993FD00080DC29 /* CompletionBasic.swift */,
+			);
+			path = Completion;
+			sourceTree = "<group>";
+		};
+		47157A9A2C99C59B0080DC29 /* ProperyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				47157A9B2C99D79A0080DC29 /* PropertyWrapper.swift */,
+			);
+			path = ProperyWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,15 +238,23 @@
 			files = (
 				47157A7F2C9939BA0080DC29 /* ThirdView.swift in Sources */,
 				47157A7D2C9939B20080DC29 /* SecondView.swift in Sources */,
+				47157A932C9983E60080DC29 /* MyUseCase.swift in Sources */,
 				47157A662C9938B90080DC29 /* ContentView.swift in Sources */,
 				47157A7B2C9939AA0080DC29 /* FirstView.swift in Sources */,
 				47157A642C9938B90080DC29 /* SwiftPracticeApp.swift in Sources */,
+				47157A972C99A3A60080DC29 /* DIContainerInstance.swift in Sources */,
+				47157A892C993CAA0080DC29 /* Module.swift in Sources */,
+				47157A9C2C99D79A0080DC29 /* PropertyWrapper.swift in Sources */,
 				47157A742C9939560080DC29 /* FirstPathView.swift in Sources */,
 				47157A862C9939DF0080DC29 /* SixthView.swift in Sources */,
 				47157A782C9939730080DC29 /* ThirdPathView.swift in Sources */,
 				47157A822C9939CF0080DC29 /* FourthView.swift in Sources */,
+				47157A992C99A3BF0080DC29 /* DIContainerClosure.swift in Sources */,
 				47157A842C9939D70080DC29 /* FifthView.swift in Sources */,
+				47157A912C995E590080DC29 /* Container.swift in Sources */,
 				47157A762C99396A0080DC29 /* SecondPathView.swift in Sources */,
+				47157A952C9983F00080DC29 /* MyViewModel.swift in Sources */,
+				47157A8F2C993FD00080DC29 /* CompletionBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

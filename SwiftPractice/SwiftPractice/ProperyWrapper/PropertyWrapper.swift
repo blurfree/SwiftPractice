@@ -30,16 +30,3 @@ struct User {
 
 var user = User(name: "john")
 
-@propertyWrapper
-struct UserDefaultsWrapper<T> {
-    
-    var key: String
-    var value: T
-    
-    var wrappedValue: T {
-        
-        
-        
-    }
-    
-}
