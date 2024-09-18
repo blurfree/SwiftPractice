@@ -35,3 +35,4 @@ let myClassInstance = MyClass {
 /// 나중에 클로저 호출
 /// 출력: Completion was Called
 /// myClassInstance.doSomething()
+/// test
